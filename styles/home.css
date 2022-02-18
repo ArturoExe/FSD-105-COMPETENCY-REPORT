@@ -1,0 +1,50 @@
+.main-table{
+    
+    overflow-x: auto;
+}
+
+table {
+
+  margin: 5rem auto;
+  width: 100%;
+ text-align: center;
+  border-collapse:collapse;
+  border-spacing: 10px 5px;
+  background-color: rgba(151, 151, 240, 0.753);
+    
+
+
+}
+
+table td {
+  margin: 1rem;
+  padding: 2rem;
+ border-bottom: 2px solid rgb(0, 0, 0);
+ font-weight: 500;
+
+}
+tbody tr:nth-child(odd){
+    background-color: rgba(176, 196, 241, 0.753);
+
+}
+
+th{
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 0.5rem;
+    background-color: rgb(2, 16, 94);
+    color: white;
+  
+}
+
+
+h1{
+    text-align: center;
+    margin: 3rem;
+}
+
+.password-text{
+
+    -webkit-text-security: disc;
+
+}

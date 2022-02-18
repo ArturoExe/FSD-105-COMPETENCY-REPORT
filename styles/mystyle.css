@@ -2,3 +2,58 @@
     border: 1px solid rgb(245, 67, 55);
     background-color: rgb(230, 107, 103);
 }
+
+div label{
+    display: inline-block;
+    width: 100px;
+    font-weight: 600;
+}
+
+div input{
+    border: none;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgb(226, 78, 78),blue) 1;
+}
+
+.container div{
+    border-radius: 4%;
+    margin: 1rem;
+}
+
+main .container{
+box-shadow: 5px 5px 10px rgb(129, 128, 128);    
+}
+
+button{
+    margin:2rem !important;
+
+}
+
+/* The alert message box */
+.alert {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    background-color: #17d877; 
+    color: white;
+    margin-bottom: 3rem;
+    position: relative
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
